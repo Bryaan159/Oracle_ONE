@@ -1,15 +1,41 @@
-<h1>mi primer programa HTML!!</h1>
-<br>
-<br>
-<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+      body{
+          background-color: black;
+      }
+      font{
+          color: white;
+      }
+    </style>
+    
+    <script class="javascript">
+        var age1 = 0;
+        var age2 = 0;
+        var age3 = 0;
+        var resultado = 0;
 
-será esto realmente un programa? descubralo <a href="https://es.wikipedia.org/wiki/HTML">aqui</a>
+        alert("Hello World");
+        alert("Dime las edades de tus amigos");
+        age1 = parseInt(prompt("Ingrese la edad de su amigo 1"));
+        age2 = parseInt(prompt("Ingrese la edad de su amigo 2"));
+        age3 = parseInt(prompt("Ingrese la edad de su amigo 3"));
+        resultado = age1+age2+age3;
+        alert("La suma de las edades es: " + resultado);
+        alert("Las edades son: " + age1 + ", " + age2 + ", " + age3);
+        alert("La edad promedio es: " + ((resultado) / 3));
 
-<br>
 
-ingresa <a href="https://es.wikipedia.org/wiki/JavaScript">aqui</a> para ver un verdadero lenguage de programación
-
-
-<script>
-	alert("Esto sí es lenguaje de programación");
-</script>
+        document.write("☺La edad es: ... <br>")
+        document.write("?");
+    </script>
+    
+</body>
+</html>
